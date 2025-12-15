@@ -7,6 +7,25 @@ theme:
 
 nav:
   - Inicio: index.md
+  site_name: LANEDU Labs
+site_url: https://lanedu-org.github.io/LANEDU-Labs/
+
+theme:
+  name: material
+  language: es
+
+nav:
+  - Inicio: index.md
+  - Onboarding:
+      - GitHub Basics: onboarding/github-basics.md
+      - Workflow: onboarding/workflow.md
+      - Cómo crear un PR: onboarding/how-to-create-a-pr.md
+      - Errores comunes: onboarding/common-mistakes.md
+      - Glosario: onboarding/glossary.md
+
+plugins:
+  - search
+
 
 plugins:
   - search
