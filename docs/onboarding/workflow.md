@@ -1,56 +1,148 @@
-# Workflow de trabajo en LANEDU Labs
+Flujo de trabajo (Git Flow – LANEDU Labs)
+# Flujo de trabajo en LANEDU Labs
 
-En LANEDU Labs seguimos un flujo simple y profesional.
-Este flujo protege el proyecto y facilita el trabajo en equipo.
+Este documento define **cómo trabajamos en LANEDU Labs**.
+El objetivo no es complicar el proceso, sino **ordenarlo**.
 
----
-
-## Paso 1: Crear una Issue
-
-Antes de cambiar algo:
-- Describe qué quieres mejorar
-- Explica por qué es necesario
-- Indica el archivo afectado
-
-La Issue es el punto de partida de todo cambio.
+Seguimos un flujo inspirado en proyectos open-source reales.
 
 ---
 
-## Paso 2: Hacer un Fork
+## 🎯 Objetivo del flujo
+
+- Evitar cambios directos en producción
+- Facilitar revisiones
+- Mantener historial claro
+- Permitir que muchas personas colaboren sin conflictos
+
+---
+
+## 🌿 Ramas del proyecto
+
+### `main`
+- Rama principal del proyecto
+- Contiene documentación estable
+- **Nunca se trabaja directamente aquí**
+
+> `main` representa el estado actual “publicado” del proyecto.
+
+---
+
+### Ramas de trabajo (feature branches)
+
+Cada cambio se realiza en una rama creada desde `main`.
+
+Formato recomendado:
+tipo/descripcion-corta
+
+Ejemplos:
+- `docs/improve-github-basics`
+- `fix/typos-workflow`
+- `docs/add-python-errors`
+
+---
+
+## 🧠 Tipos de cambios (convención)
+
+Usamos una convención simple para nombrar ramas y commits:
+
+| Tipo | Uso |
+|----|----|
+| `docs/` | Cambios de documentación |
+| `fix/` | Correcciones de errores |
+| `chore/` | Ajustes menores / orden |
+
+No es obligatorio, pero **muy recomendado**.
+
+---
+
+## 🔁 Flujo completo de trabajo
+Issue
+↓
+Fork
+↓
+Rama desde main
+↓
+Commit(s)
+↓
+Pull Request
+↓
+Revisión
+↓
+Merge a main
+
+
+Este flujo es obligatorio para todos los aportes.
+
+---
+
+## 🐞 Paso 1: Crear una Issue
+
+Antes de escribir código o documentación:
+
+- Describe el problema o mejora
+- Explica por qué es necesaria
+- Indica el archivo involucrado
+
+Ejemplo:
+> “La sección de commits es confusa para principiantes”
+
+---
+
+## 🍴 Paso 2: Hacer un Fork
 
 El fork crea una copia del repositorio en tu cuenta.
-Ahí puedes trabajar libremente sin afectar el proyecto original.
+Ahí puedes trabajar con total libertad.
 
 ---
 
-## Paso 3: Crear una rama
+## 🌿 Paso 3: Crear una rama
 
-Cada cambio debe ir en su propia rama.
-Ejemplos de nombres:
-- `improve-github-basics`
-- `fix-typos-glossary`
+Desde tu fork, crea una rama específica para el cambio.
 
----
-
-## Paso 4: Hacer commits
-
-Un commit debe:
-- Representar una sola idea
-- Tener un mensaje claro
-- Ser fácil de entender
+✔ Un cambio = una rama  
+❌ No mezclar varios temas en una sola rama
 
 ---
 
-## Paso 5: Abrir un Pull Request
+## 💾 Paso 4: Commits
 
-El Pull Request sirve para:
-- Proponer tus cambios
-- Recibir feedback
-- Integrar mejoras al proyecto
+Buenas prácticas:
+
+- Commits pequeños
+- Un commit = una idea
+- Mensajes claros y descriptivos
+
+Ejemplo:
+
+
+Improve explanation of Git workflow
+
 
 ---
 
-## Regla de oro
+## 🔁 Paso 5: Pull Request
 
-> Cambios pequeños y claros  
-> son mejores que cambios grandes y con
+El Pull Request es el espacio de conversación técnica.
+
+Debe explicar:
+- Qué cambiaste
+- Por qué lo cambiaste
+- A qué Issue responde
+
+---
+
+## ✅ Regla de oro
+
+> Si tu cambio es fácil de explicar,  
+probablemente está bien hecho.
+
+---
+
+## 📌 Importante
+
+Este flujo no es negociable.
+Es parte del aprendizaje.
+
+Aprender a seguir procesos
+es tan importante como el contenido técnico.
