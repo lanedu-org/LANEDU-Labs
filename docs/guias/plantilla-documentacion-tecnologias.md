@@ -140,9 +140,24 @@ No más de 10 puntos.
 
 ## 10) Glosario rápido (opcional)
 
-Define términos propios de la tecnología.
+Define términos propios de esta tecnología que puedan resultar confusos
+para personas que recién comienzan.
 
-**Término:** definición corta
+Formato sugerido:
+- **Término:** definición corta y clara
+
+### Importante
+Si al documentar detectas un término que **no existe en el glosario general**,
+debes:
+
+1. Crear una **Issue** solicitando agregarlo al glosario global  
+2. Indicar el término y una definición propuesta  
+3. Referenciar esta documentación como contexto
+
+Archivo del glosario general:
+- `docs/onboarding/glossary.md`
+
+Esto ayuda a mantener un **lenguaje común en todo LANEDU Labs**.
 
 ---
 
