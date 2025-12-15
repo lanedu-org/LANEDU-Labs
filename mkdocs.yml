@@ -59,3 +59,7 @@ extra_css:
 
 plugins:
   - search
+
+extra:
+  navigation:
+    expand: false
