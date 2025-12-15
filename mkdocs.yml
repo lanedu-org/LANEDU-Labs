@@ -1,13 +1,4 @@
 site_name: LANEDU Labs
-site_url: https://lanedu-org.github.io/lanedu-labs/
-
-theme:
-  name: material
-  language: es
-
-nav:
-  - Inicio: index.md
-  - site_name: LANEDU Labs
 site_url: https://lanedu-org.github.io/LANEDU-Labs/
 
 theme:
@@ -16,16 +7,23 @@ theme:
 
 nav:
   - Inicio: index.md
+
   - Onboarding:
-      - GitHub Basics: onboarding/github-basics.md
-      - Workflow: onboarding/workflow.md
-      - Cómo crear un PR: onboarding/how-to-create-a-pr.md
+      - Introducción a GitHub: onboarding/github-basics.md
+      - Flujo de trabajo en LANEDU: onboarding/workflow.md
+      - Cómo crear un Pull Request: onboarding/how-to-create-a-pr.md
       - Errores comunes: onboarding/common-mistakes.md
       - Glosario: onboarding/glossary.md
 
-plugins:
-  - search
+  - Tecnologías:
+      - Python: tecnologias/python.md
+      - Git: tecnologias/git.md
+      - Docker: tecnologias/docker.md
+      - Linux: tecnologias/linux.md
 
+  - Guías:
+      - Cómo contribuir: guias/como-contribuir.md
+      - Estilo de documentación: guias/estilo-documentacion.md
 
 plugins:
   - search
