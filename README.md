@@ -1,145 +1,175 @@
-# 🧪 LANEDU Labs – Programa de Onboarding Técnico
 
-Bienvenido/a a **LANEDU Labs**.
 
-Este repositorio forma parte del **programa de onboarding técnico gratuito de LANEDU**, diseñado para que aprendas cómo se trabaja en un equipo de desarrollo real usando GitHub.
+¡Claro! Aquí tienes una versión mejorada del markdown, optimizada para una mejor lectura, jerarquía visual y presentación profesional.
 
-Aquí no vienes solo a leer código.  
-Vienes a **colaborar**.
+```markdown
+# 🧪 LANEDU Labs
 
----
+LANEDU Labs es el laboratorio de aprendizaje y documentación técnica de LANEDU.
 
-## 👤 Tu rol
+Este repositorio funciona como un entorno real de trabajo colaborativo, donde estudiantes aprenden a usar GitHub, documentar tecnologías y colaborar como en proyectos open-source profesionales.
 
-Desde este momento, tu rol es:
-
-> **Trainee Developer – LANEDU Labs**
-
-No se espera que lo sepas todo.  
-Se espera que aprendas el proceso correcto de trabajo en equipo.
+> Aquí no vienes solo a leer.  
+> Vienes a aprender haciendo.
 
 ---
 
-## 🎯 Objetivo del programa
+## 🎯 Objetivo del proyecto
 
-Tu objetivo es **realizar tu primer aporte a un proyecto real** utilizando el flujo profesional de GitHub:
-Issue → Fork → Rama → Commit → Pull Request 
-Este es el mismo flujo que utilizan empresas y proyectos open source.
+LANEDU Labs tiene tres objetivos principales:
 
----
+- Enseñar GitHub y trabajo colaborativo de forma práctica.
+- Construir documentación técnica clara y útil.
+- Simular flujos reales de proyectos de código abierto.
 
-## 📦 Sobre este repositorio
-
-Este proyecto:
-
-- Es **público**
-- Está diseñado **para practicar**
-- Tiene errores y mejoras intencionales
-- No está terminado a propósito
-
-👉 Todo esto es normal en proyectos reales.
-
-Tu misión es **ayudar a mejorarlo**.
+El foco no está en memorizar comandos, sino en entender procesos, criterios y buenas prácticas.
 
 ---
 
-## 🧠 Qué aprenderás aquí
+## 👤 ¿Para quién es este repositorio?
 
-Al trabajar en este repositorio aprenderás a:
+LANEDU Labs está pensado para:
 
-- Entender un proyecto existente
-- Detectar problemas o mejoras
-- Crear Issues claras
-- Trabajar con ramas
-- Hacer commits con sentido
-- Enviar Pull Requests correctamente
+- Estudiantes que están comenzando en tecnología.
+- Personas que quieren aprender a colaborar en GitHub.
+- Quienes desean practicar documentación técnica.
+- Alumnos de cursos LANEDU (curso gratuito y clases en vivo).
 
-No se evalúa la perfección del código.  
-Se evalúa **el proceso**.
+No se requiere experiencia previa en open-source.
 
 ---
 
-## 🛠 Reglas del laboratorio
+## 🧠 Qué ES y qué NO es LANEDU Labs
 
-Para proteger el trabajo del equipo, seguimos estas reglas:
+### ✅ Es
 
-1. ❌ No trabajar directamente en la rama principal
-2. 🐞 Todo cambio comienza con una **Issue**
-3. 🌿 Todo cambio se hace en una **rama**
-4. 🔁 Todo cambio se envía mediante un **Pull Request**
+- Un laboratorio educativo.
+- Un proyecto colaborativo real.
+- Un espacio seguro para aprender GitHub.
+- Una base de conocimiento técnico en crecimiento.
 
-Si vienes del mundo académico, estas reglas pueden parecer estrictas.  
-En la industria, son lo normal.
+### ❌ No es
 
----
-
-## 🚀 Cómo empezar
-
-Sigue estos pasos:
-
-1. Lee este README completo
-2. Revisa los archivos del proyecto
-3. Detecta algo que pueda mejorarse
-4. Crea una **Issue** explicando el problema
-5. Haz un **Fork** del repositorio
-6. Crea una **rama**
-7. Realiza el cambio
-8. Haz un **commit** claro
-9. Abre un **Pull Request**
-
-No te preocupes si es tu primera vez.  
-Eso es exactamente para lo que existe este repositorio.
+- Un curso tradicional paso a paso.
+- Un reemplazo de la documentación oficial.
+- Un repositorio de código productivo.
+- Un lugar para copiar y pegar sin entender.
 
 ---
 
-## ✅ Ejemplos de mejoras válidas
+## 📚 Documentación
 
-Puedes, por ejemplo:
+Toda la documentación del proyecto está publicada aquí:
 
-- Mejorar este README
-- Corregir errores de texto
-- Agregar instrucciones faltantes
-- Ordenar archivos
-- Proponer mejoras simples
+👉 [https://lanedu-org.github.io/LANEDU-Labs/](https://lanedu-org.github.io/LANEDU-Labs/)
 
-No necesitas hacer nada complejo.
+La documentación se organiza en:
 
----
-
-## 🎓 ¿Qué pasa después?
-
-Completar este laboratorio significa que:
-
-- Ya entiendes cómo funciona GitHub en equipo
-- Ya puedes colaborar en proyectos reales
-- Ya no eres un principiante “teórico”
-
-LANEDU Labs es la **puerta de entrada**.
-
-Los proyectos avanzados incluyen:
-- Clases en vivo
-- Acompañamiento
-- Revisión de código
-- Trabajo en equipo guiado
-
-Pero antes de eso, este es tu primer paso.
+- **Onboarding** → Cómo trabajar en el repo.
+- **Tecnologías** → Documentación técnica (Python, Git, Docker, etc.).
+- **Guías** → Reglas, estilo y plantillas de documentación.
 
 ---
 
-## 🤝 Código de conducta
+## 🧭 Cómo empezar (recomendado)
 
-- Sé respetuoso
-- Pregunta sin miedo
-- Aprende del feedback
-- Ayuda a otros cuando puedas
+Si eres nuevo, sigue este orden:
 
-Aquí todos estamos aprendiendo.
+1.  Lee la documentación de Onboarding.
+2.  Revisa el flujo de trabajo.
+3.  Explora las Issues abiertas.
+4.  Toma una Issue marcada como `good first issue`.
+5.  Envía tu primer Pull Request.
 
 ---
 
-## 🧭 Mensaje final
+## 🔁 Flujo de trabajo resumido
 
-> No necesitas saberlo todo.  
-> Necesitas saber **cómo integrarte a un equipo**.
+El flujo de trabajo en LANEDU Labs es similar al de proyectos open-source reales:
 
-Bienvenido/a a **LANEDU Labs** 🚀
+```
+Issue → Fork → Rama → Commit → Pull Request → Revisión → Merge
+```
+
+⚠️ **Importante:**
+- Nunca se trabaja directamente en la rama `main`.
+- La rama `gh-pages` es automática y no se debe editar manualmente.
+
+---
+
+## 🧩 Cómo contribuir
+
+Los aportes más comunes son:
+
+- Mejorar explicaciones.
+- Corregir errores.
+- Agregar ejemplos.
+- Completar documentación de tecnologías.
+- Mejorar estilo y claridad.
+
+Antes de contribuir, revisa las guías esenciales:
+- `docs/guias/como-contribuir.md`
+- `docs/guias/estilo-documentacion.md`
+- `docs/guias/plantilla-documentacion-tecnologias.md`
+
+---
+
+## 🧪 Documentación de tecnologías
+
+Las tecnologías documentadas en este repositorio siguen una plantilla estándar, pensada para ser:
+
+- Clara
+- Escalable
+- Mantenible
+- Fácil de mejorar por la comunidad
+
+**Ejemplos:**
+- [Python](#)
+- [Git](#)
+- [Docker](#)
+- [Linux](#)
+
+Cada documento está diseñado para:
+> Orientar, dar criterio y enlazar a la documentación oficial.
+
+---
+
+## 🏗️ Estado del proyecto
+
+LANEDU Labs es un proyecto vivo.
+
+- Siempre se puede mejorar una explicación.
+- Siempre hay algo por documentar.
+- Siempre hay una Issue disponible.
+
+Las Issues y Pull Requests son parte central del aprendizaje.
+
+---
+
+## 🧠 Filosofía LANEDU Labs
+
+> No enseñamos solo tecnologías.  
+> Enseñamos a aprender, colaborar y documentar como profesionales.
+
+---
+
+## 🤝 Comunidad y aprendizaje
+
+Este proyecto es parte del ecosistema educativo de LANEDU.
+
+- **Curso gratuito:** Introducción al flujo y a GitHub.
+- **Clases en vivo:** Profundización y acompañamiento.
+- **Comunidad:** Aprendizaje colaborativo y guiado.
+
+---
+
+## 📌 Notas finales
+
+- Sé respetuoso en Issues y PRs.
+- Los errores son parte del aprendizaje.
+- El proceso es más importante que la perfección.
+
+---
+
+# Bienvenido a LANEDU Labs 🧪🚀
+```
