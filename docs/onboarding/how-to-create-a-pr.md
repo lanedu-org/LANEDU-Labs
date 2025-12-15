@@ -1,45 +1,128 @@
-# Cómo crear un Pull Request paso a paso
+Cómo crear un Pull Request (estilo profesional)
+# Cómo crear un Pull Request en LANEDU Labs
 
-Esta guía explica el proceso completo para enviar un Pull Request en LANEDU Labs.
+Un Pull Request (PR) es una **propuesta de cambio**.
+No es solo “enviar algo”, es **explicar una idea**.
 
----
-
-## 1. Crear una Issue
-
-Explica qué vas a mejorar y por qué.
+Este documento muestra cómo hacerlo correctamente.
 
 ---
 
-## 2. Hacer un Fork
+## 🎯 Qué es un buen Pull Request
 
-Copia el repositorio en tu cuenta de GitHub.
-
----
-
-## 3. Crear una rama
-
-Desde tu fork, crea una rama con un nombre descriptivo.
+Un buen PR es:
+- Pequeño
+- Claro
+- Fácil de revisar
+- Fácil de entender
 
 ---
 
-## 4. Realizar el cambio
+## 🧭 Antes de empezar
 
-Edita el archivo correspondiente.
-Mantén el cambio pequeño y claro.
+Asegúrate de que:
+
+- Existe una Issue asociada
+- Tu cambio es específico
+- Sabes qué archivo vas a modificar
 
 ---
 
-## 5. Hacer commit
+## 🧪 Paso a paso
 
-Usa un mensaje simple y descriptivo.
+### 1️⃣ Crea una Issue
+Describe el problema o mejora.
+
+---
+
+### 2️⃣ Haz un Fork
+Copia el repositorio en tu cuenta.
+
+---
+
+### 3️⃣ Crea una rama
+Desde `main`, crea una rama descriptiva.
+
 Ejemplo:
-- `Improve explanation of commits`
+
+
+docs/improve-pr-guide
+
 
 ---
 
-## 6. Abrir el Pull Request
+### 4️⃣ Realiza el cambio
+Mantén el cambio pequeño.
+Evita modificar archivos innecesarios.
 
-En el Pull Request explica:
-- Qué cambiaste
-- Por qué lo hiciste
-- A qué Issue r
+---
+
+### 5️⃣ Haz commit
+
+Usa mensajes claros.
+Formato recomendado:
+
+
+
+<verbo en presente> <qué cambiaste>
+
+Ejemplo:
+Improve PR documentation clarity
+
+
+---
+
+### 6️⃣ Abre el Pull Request
+
+Al crear el PR, completa la descripción:
+
+#### Descripción sugerida
+
+```text
+¿Qué cambia este PR?
+- Mejora la explicación del flujo de trabajo
+
+¿Por qué es necesario?
+- Reduce confusión en alumnos nuevos
+
+Issue relacionada:
+- #12
+
+🔍 Revisión
+
+Durante la revisión:
+
+Escucha el feedback
+
+Ajusta si es necesario
+
+No tomes comentarios como algo personal
+
+El objetivo es mejorar el proyecto.
+
+❌ Errores comunes en PRs
+
+Cambios demasiado grandes
+
+No explicar el porqué
+
+PRs sin Issue
+
+Mensajes de commit poco claros
+
+✅ Checklist antes de enviar
+
+ El PR tiene Issue asociada
+
+ El cambio es pequeño
+
+ El mensaje de commit es claro
+
+ El PR explica el propósito
+
+Si todo está marcado, vas bien.
+
+🧠 Recuerda
+
+Un Pull Request no es un examen.
+Es una conversación técnica.
