@@ -4,6 +4,9 @@ site_url: https://lanedu-org.github.io/LANEDU-Labs/
 theme:
   name: material
   language: es
+  palette:
+    scheme: slate
+
 
 nav:
   - Inicio: index.md
