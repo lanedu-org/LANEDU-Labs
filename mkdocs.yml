@@ -1,0 +1,12 @@
+site_name: LANEDU Labs
+site_url: https://lanedu-org.github.io/lanedu-labs/
+
+theme:
+  name: material
+  language: es
+
+nav:
+  - Inicio: index.md
+
+plugins:
+  - search
