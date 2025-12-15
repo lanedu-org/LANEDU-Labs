@@ -25,16 +25,12 @@ theme:
     code: Fira Code
 
   features:
-    - navigation.instant
+    - navigation.sections 
     - navigation.tracking
-    - navigation.expand
-    - navigation.sections
     - navigation.top
-    - content.code.copy
-    - content.code.annotate
     - search.highlight
     - search.suggest
-    - search.share
+    - content.code.copy
 
 nav:
   - Inicio: index.md
