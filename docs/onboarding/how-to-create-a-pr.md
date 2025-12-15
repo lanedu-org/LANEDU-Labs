@@ -142,3 +142,22 @@ Antes de enviar tu PR, revisa:
 - ✅ El PR explica qué cambia y por qué
 
 Si todo está marcado, vas por buen camino.✅
+
+
+---
+
+## 🚫 Qué NO hacer en un Pull Request
+
+- No mezclar varios temas en un mismo PR
+- No modificar archivos que no estén relacionados
+- No abrir PRs sin Issue previa
+- No trabajar directamente sobre `main`
+
+Si tienes dudas, es mejor preguntar en una Issue antes de avanzar.
+
+---
+
+## 🧠 Idea final
+
+> Un buen Pull Request no demuestra que sabes mucho.  
+> Demuestra que sabes **colaborar bien**.

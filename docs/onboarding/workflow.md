@@ -1,7 +1,8 @@
-Flujo de trabajo (Git Flow – LANEDU Labs)
+
+
 # Flujo de trabajo en LANEDU Labs
 
-Este documento define **cómo trabajamos en LANEDU Labs**.
+Este documento define **cómo trabajamos en LANEDU Labs**.  
 El objetivo no es complicar el proceso, sino **ordenarlo**.
 
 Seguimos un flujo inspirado en proyectos open-source reales.
@@ -10,9 +11,11 @@ Seguimos un flujo inspirado en proyectos open-source reales.
 
 ## 🎯 Objetivo del flujo
 
+Este flujo existe para:
+
 - Evitar cambios directos en producción
 - Facilitar revisiones
-- Mantener historial claro
+- Mantener un historial claro
 - Permitir que muchas personas colaboren sin conflictos
 
 ---
@@ -24,21 +27,26 @@ Seguimos un flujo inspirado en proyectos open-source reales.
 - Contiene documentación estable
 - **Nunca se trabaja directamente aquí**
 
-> `main` representa el estado actual “publicado” del proyecto.
+> `main` representa el estado actual "publicado" del proyecto.
 
 ---
 
 ### Ramas de trabajo (feature branches)
 
-Cada cambio se realiza en una rama creada desde `main`.
+Cada cambio se realiza en una **rama creada desde `main`**.
 
 Formato recomendado:
+
+```text
 tipo/descripcion-corta
+```
 
 Ejemplos:
-- `docs/improve-github-basics`
-- `fix/typos-workflow`
-- `docs/add-python-errors`
+```text
+docs/improve-github-basics
+fix/typos-workflow
+docs/add-python-errors
+```
 
 ---
 
@@ -47,30 +55,32 @@ Ejemplos:
 Usamos una convención simple para nombrar ramas y commits:
 
 | Tipo | Uso |
-|----|----|
+|------|-----|
 | `docs/` | Cambios de documentación |
 | `fix/` | Correcciones de errores |
 | `chore/` | Ajustes menores / orden |
 
-No es obligatorio, pero **muy recomendado**.
+No es obligatorio, pero muy recomendado.
 
 ---
 
 ## 🔁 Flujo completo de trabajo
-Issue
-↓
-Fork
-↓
-Rama desde main
-↓
-Commit(s)
-↓
-Pull Request
-↓
-Revisión
-↓
-Merge a main
 
+```text
+Issue
+  ↓
+Fork
+  ↓
+Rama desde main
+  ↓
+Commit(s)
+  ↓
+Pull Request
+  ↓
+Revisión
+  ↓
+Merge a main
+```
 
 Este flujo es obligatorio para todos los aportes.
 
@@ -85,7 +95,7 @@ Antes de escribir código o documentación:
 - Indica el archivo involucrado
 
 Ejemplo:
-> “La sección de commits es confusa para principiantes”
+> "La sección de commits es confusa para principiantes"
 
 ---
 
@@ -113,11 +123,10 @@ Buenas prácticas:
 - Un commit = una idea
 - Mensajes claros y descriptivos
 
-Ejemplo:
-
-
+Ejemplo de mensaje de commit:
+```text
 Improve explanation of Git workflow
-
+```
 
 ---
 
@@ -126,6 +135,7 @@ Improve explanation of Git workflow
 El Pull Request es el espacio de conversación técnica.
 
 Debe explicar:
+
 - Qué cambiaste
 - Por qué lo cambiaste
 - A qué Issue responde
@@ -134,7 +144,7 @@ Debe explicar:
 
 ## ✅ Regla de oro
 
-> Si tu cambio es fácil de explicar,  
+Si tu cambio es fácil de explicar,
 probablemente está bien hecho.
 
 ---
@@ -146,3 +156,13 @@ Es parte del aprendizaje.
 
 Aprender a seguir procesos
 es tan importante como el contenido técnico.
+
+---
+
+## 🧠 Si tienes dudas
+
+Si no sabes cómo avanzar:
+
+- Crea una Issue
+- Pregunta antes de cambiar cosas
+- Revisa ejemplos de PRs anteriores

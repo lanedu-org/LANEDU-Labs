@@ -1,46 +1,87 @@
 # Errores comunes al empezar en GitHub
 
-Estos errores son normales cuando se está aprendiendo.
-Este archivo existe para ayudarte a evitarlos.
+Cometer errores es parte normal del aprendizaje.  
+Este documento existe para ayudarte a **reconocerlos y evitarlos**.
 
 ---
 
-## Trabajar directamente en main
+## Trabajar directamente en `main`
 
-Nunca hagas cambios directos en la rama principal.
-Siempre crea una rama nueva.
+**Qué pasa:**  
+Modificar directamente la rama `main`.
+
+**Por qué es un problema:**  
+`main` representa el estado estable del proyecto.  
+Cambiarla sin revisión puede romper el flujo de trabajo.
+
+**Cómo evitarlo:**  
+Crea siempre una rama nueva desde `main` para cada cambio.
 
 ---
 
-## No crear una Issue antes
+## No crear una Issue antes de trabajar
 
-La Issue ayuda a pensar antes de actuar.
-Saltarse este paso genera confusión.
+**Qué pasa:**  
+Hacer cambios sin explicar primero el problema o la mejora.
+
+**Por qué es un problema:**  
+La Issue ordena ideas y evita duplicar trabajo.
+
+**Cómo evitarlo:**  
+Crea una Issue antes de comenzar, incluso si el cambio es pequeño.
 
 ---
 
 ## Commits sin mensaje claro
 
-Evita mensajes como:
-- "cambios"
-- "update"
+**Qué pasa:**  
+Usar mensajes como:
+- `cambios`
+- `update`
+- `fix`
 
-Prefiere mensajes que expliquen qué hiciste.
+**Por qué es un problema:**  
+El historial pierde sentido y dificulta entender qué se hizo.
+
+**Cómo evitarlo:**  
+Escribe mensajes que expliquen **qué cambiaste** y **para qué**.
 
 ---
 
-## Cambios demasiado grandes
+## Cambios demasiado grandes en un solo PR
 
-Un Pull Request muy grande es difícil de revisar.
-Divide el trabajo en partes pequeñas.
+**Qué pasa:**  
+Un Pull Request con muchos cambios distintos.
+
+**Por qué es un problema:**  
+Es difícil de revisar y corregir.
+
+**Cómo evitarlo:**  
+Divide el trabajo en cambios pequeños y enfocados.
 
 ---
 
 ## Miedo a equivocarse
 
-Aquí equivocarse es seguro.
-El objetivo es aprender el proceso.
+**Qué pasa:**  
+No aportar por miedo a hacerlo mal.
+
+**Por qué es un problema:**  
+El aprendizaje se detiene.
+
+**Cómo evitarlo:**  
+Este repositorio es un entorno seguro.  
+Aquí equivocarse es parte del proceso.
 
 ---
 
-Si cometes un error nuevo, agrégalo a este archivo.
+## ¿Encontraste un error nuevo?
+
+Si detectas un error común que no esté listado aquí:
+
+1. Crea una **Issue**
+2. Describe el error y por qué ocurre
+3. Propón cómo evitarlo
+4. (Opcional) Envía un Pull Request para agregarlo a este archivo
+
+Así ayudas a quienes vienen después.
