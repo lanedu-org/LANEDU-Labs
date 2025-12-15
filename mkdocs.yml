@@ -51,6 +51,7 @@ nav:
   - Guías:
       - Cómo contribuir: guias/como-contribuir.md
       - Estilo de documentación: guias/estilo-documentacion.md
+      - Plantilla de documentación de tecnologías: guias/plantilla-documentacion-tecnologias.md
 
 
 
@@ -60,6 +61,3 @@ extra_css:
 plugins:
   - search
 
-extra:
-  navigation:
-    expand: false
