@@ -183,11 +183,3 @@ Regla: linkear sí, copiar no.
 
 ---
 
-## 13) Contribuciones sugeridas
-
-Ideas para mejorar este documento:
-
-- [ ] Mejorar una definición
-- [ ] Agregar errores comunes
-- [ ] Agregar un ejemplo mínimo
-- [ ] Agregar recursos confiables
