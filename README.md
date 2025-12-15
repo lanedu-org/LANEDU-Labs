@@ -1,8 +1,3 @@
-
-
-¡Claro! Aquí tienes una versión mejorada del markdown, optimizada para una mejor lectura, jerarquía visual y presentación profesional.
-
-```markdown
 # 🧪 LANEDU Labs
 
 LANEDU Labs es el laboratorio de aprendizaje y documentación técnica de LANEDU.
@@ -172,4 +167,3 @@ Este proyecto es parte del ecosistema educativo de LANEDU.
 ---
 
 # Bienvenido a LANEDU Labs 🧪🚀
-```
