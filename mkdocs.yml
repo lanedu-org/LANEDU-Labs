@@ -56,5 +56,9 @@ nav:
       - Cómo contribuir: guias/como-contribuir.md
       - Estilo de documentación: guias/estilo-documentacion.md
 
+
+extra_css:
+  - stylesheets/neon.css
+
 plugins:
   - search
