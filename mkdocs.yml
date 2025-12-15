@@ -7,7 +7,7 @@ theme:
 
 nav:
   - Inicio: index.md
-  site_name: LANEDU Labs
+  - site_name: LANEDU Labs
 site_url: https://lanedu-org.github.io/LANEDU-Labs/
 
 theme:
