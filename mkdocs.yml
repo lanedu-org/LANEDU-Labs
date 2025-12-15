@@ -4,16 +4,44 @@ site_url: https://lanedu-org.github.io/LANEDU-Labs/
 theme:
   name: material
   language: es
-  palette:
-    scheme: slate
 
+  palette:
+    - scheme: slate
+      primary: black
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+
+    - scheme: default
+      primary: black
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+
+  font:
+    text: Roboto
+    code: Fira Code
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+    - search.highlight
+    - search.suggest
+    - search.share
 
 nav:
   - Inicio: index.md
 
   - Onboarding:
       - Introducción a GitHub: onboarding/github-basics.md
-      - Flujo de trabajo en LANEDU: onboarding/workflow.md
+      - Flujo de trabajo: onboarding/workflow.md
       - Cómo crear un Pull Request: onboarding/how-to-create-a-pr.md
       - Errores comunes: onboarding/common-mistakes.md
       - Glosario: onboarding/glossary.md
