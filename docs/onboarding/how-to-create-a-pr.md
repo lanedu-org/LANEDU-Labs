@@ -136,9 +136,9 @@ Evita estos errores frecuentes:
 
 Antes de enviar tu PR, revisa:
 
-- [ ] El PR tiene una Issue asociada
-- [ ] El cambio es pequeño y claro
-- [ ] El mensaje de commit es descriptivo
-- [ ] El PR explica qué cambia y por qué
+- [x] El PR tiene una Issue asociada
+- [x] El cambio es pequeño y claro
+- [x] El mensaje de commit es descriptivo
+- [x] El PR explica qué cambia y por qué
 
 Si todo está marcado, vas por buen camino.
