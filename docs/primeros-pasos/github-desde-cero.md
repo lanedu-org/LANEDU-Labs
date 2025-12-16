@@ -44,12 +44,16 @@ https://github.com/lanedu-org/LANEDU-Labs
 ```
 
 2. Haz clic en **Fork** (arriba a la derecha)
+![Descripción de la imagen](../img/tutorial-github/Fork01.png)
+
+
 3. Crea el fork en tu cuenta personal
+![Descripción de la imagen](../img/tutorial-github/Fork02.png)
 
 🎯 Resultado:
 - Ahora tienes tu propia copia del repositorio
 
-![Descripción de la imagen](../img/tutorial-github/Fork01.png)
+
 
 
 ---
