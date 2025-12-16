@@ -98,7 +98,7 @@ cd docs
 ls
 ```
 
-📸 *[Imagen sugerida: estructura del proyecto en VS Code]*
+![Descripción de la imagen](../img/tutorial-github/Animation3.gif)
 
 ---
 
