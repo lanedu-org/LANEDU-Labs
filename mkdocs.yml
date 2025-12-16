@@ -38,9 +38,8 @@ nav:
   - Primeros pasos:
       - Introducción: primeros-pasos/index.md
       - GitHub desde cero: primeros-pasos/github-desde-cero.md
-      - Tu primer aporte: primeros-pasos/primer-aporte.md
 
-      
+
 
   - Onboarding:
       - Introducción a GitHub: onboarding/github-basics.md
