@@ -1,188 +1,198 @@
 
 
-# GitHub desde cero – Primeros pasos técnicos
+# GitHub desde cero – Flujo técnico completo
 
-Este documento es una guía **100% práctica**.  
-Si sigues los pasos en orden, al final estarás listo/a para hacer tu **primer aporte real en LANEDU Labs**.
+Este documento explica **paso a paso** cómo trabajar en LANEDU Labs
+usando un flujo técnico real:
 
-No necesitas usar la terminal.
-Todo se hace desde la **interfaz web de GitHub**.
+Fork → Codespaces → Git → Commit → Push → Pull Request
 
----
-
-## 🎯 Objetivo de este documento
-
-Al terminar esta guía podrás:
-
-- Navegar un repositorio sin perderte
-- Entender qué es una Issue y para qué sirve
-- Entender qué es un Fork
-- Editar un archivo desde GitHub
-- Crear un Pull Request
+Al terminar esta guía, podrás **contribuir como en un proyecto profesional**.
 
 ---
 
-## 🧭 Paso 0: Estar en el lugar correcto
+## 🎯 Objetivo técnico
 
-Asegúrate de estar en el repositorio oficial:
+Al finalizar este documento sabrás:
 
+- Forkear un repositorio
+- Abrir un Codespace
+- Trabajar con Git desde la terminal
+- Crear commits correctamente
+- Enviar cambios a GitHub
+- Abrir un Pull Request
+
+---
+
+## 🧭 Paso 0: Requisitos mínimos
+
+Necesitas:
+
+- Una cuenta en GitHub
+- Navegador web
+- (Opcional) Conocimientos básicos de terminal
+
+No necesitas instalar nada localmente.
+
+---
+
+## 🍴 Paso 1: Fork del repositorio
+
+1. Ve al repositorio oficial:
 ```
 lanedu-org / LANEDU-Labs
 ```
 
-Debes ver:
-- Un botón llamado **Fork**
-- Pestañas como **Code**, **Issues**, **Pull requests**
+2. Haz clic en **Fork** (arriba a la derecha)
+3. Crea el fork en tu cuenta personal
 
-📸 *[Imagen sugerida: vista general del repositorio]*
-
----
-
-## 🧩 Paso 1: Entender el repositorio
-
-Un repositorio es el contenedor del proyecto.
-
-En LANEDU Labs encontrarás:
-- Documentación (carpeta `docs/`)
-- Issues (tareas y mejoras)
-- Pull Requests (propuestas de cambio)
-
-Por ahora, **no modifiques nada**.  
-Solo observa la estructura.
-
-📸 *[Imagen sugerida: árbol de archivos del repositorio]*
-
----
-
-## 📝 Paso 2: Qué es una Issue (y por qué es lo primero)
-
-Una **Issue** es una forma ordenada de decir:
-
-> "Aquí hay algo que se puede mejorar"
-
-Antes de hacer cualquier cambio:
-👉 **siempre se crea una Issue**
-
-Sirve para:
-- Explicar el problema
-- Evitar cambios innecesarios
-- Ordenar el trabajo
-
-📸 *[Imagen sugerida: pestaña Issues]*
-
----
-
-## 🧪 Paso 3: Crear tu primera Issue
-
-1. Haz clic en la pestaña **Issues**
-2. Presiona **New issue**
-3. Completa los campos:
-
-**Título (ejemplo):**
-```
-Agregar definición de Pull Request al glosario
-```
-
-**Descripción (ejemplo):**
-```
-El término "Pull Request" aparece en la documentación
-pero no está definido en el glosario.
-```
-
-4. Haz clic en **Submit new issue**
-
-🎯 Resultado esperado:
-- La Issue queda creada
-- GitHub le asigna un número (#)
-
-📸 *[Imagen sugerida: formulario de creación de Issue]*
-
----
-
-## 🍴 Paso 4: Qué es un Fork
-
-Un **Fork** es una copia del repositorio en tu propia cuenta.
-
-Esto te permite:
-- Probar cambios sin afectar el original
-- Trabajar con tranquilidad
-- Enviar propuestas luego
-
-En LANEDU Labs:
-- **Nunca trabajes directamente en el repositorio original**
+🎯 Resultado:
+- Ahora tienes tu propia copia del repositorio
 
 📸 *[Imagen sugerida: botón Fork]*
 
 ---
 
-## 🔁 Paso 5: Crear tu Fork
+## 💻 Paso 2: Abrir el proyecto en Codespaces
 
-1. Haz clic en **Fork** (arriba a la derecha)
-2. Espera a que GitHub cree la copia
+1. En tu fork, haz clic en **Code**
+2. Ve a la pestaña **Codespaces**
+3. Haz clic en **Create codespace on main**
 
-🎯 Resultado esperado:
-- Ahora estás en un repositorio bajo tu usuario
-- El nombre sigue siendo `LANEDU-Labs`
+GitHub abrirá un entorno de desarrollo en el navegador.
 
-📸 *[Imagen sugerida: repositorio forkeado en la cuenta del alumno]*
+🎯 Resultado:
+- VS Code web
+- Terminal integrada
+- Repositorio clonado automáticamente
 
----
-
-## ✏️ Paso 6: Editar un archivo desde la web
-
-Vamos a editar el glosario.
-
-1. En tu fork, navega a:
-```
-docs/onboarding/glossary.md
-```
-
-2. Haz clic en el ícono ✏️ (Edit)
-
-📸 *[Imagen sugerida: botón Edit en un archivo]*
+📸 *[Imagen sugerida: creación de Codespace]*
 
 ---
 
-## 🧠 Paso 7: Agregar contenido
+## 📁 Paso 3: Explorar el proyecto
 
-Agrega una nueva línea siguiendo el formato existente.
+En la terminal del Codespace, ejecuta:
 
-Ejemplo:
+```bash
+ls
+```
+
+Verás carpetas como:
+```
+docs/
+mkdocs.yml
+README.md
+```
+
+Explora la documentación:
+
+```bash
+cd docs
+ls
+```
+
+📸 *[Imagen sugerida: estructura del proyecto en VS Code]*
+
+---
+
+## 🌿 Paso 4: Crear una rama de trabajo
+
+Nunca trabajes directamente en main.
+
+Crea una nueva rama:
+
+```bash
+git checkout -b docs/add-glossary-term
+```
+
+Verifica la rama actual:
+
+```bash
+git branch
+```
+
+🎯 Resultado:
+- Estás trabajando en una rama nueva
+
+---
+
+## ✏️ Paso 5: Editar un archivo
+
+Abre el glosario:
+
+```bash
+code onboarding/glossary.md
+```
+
+Agrega un término nuevo siguiendo el formato existente:
 
 ```markdown
-- **Pull Request:** solicitud para proponer e integrar cambios en un proyecto
+- **Fork:** copia de un repositorio para trabajar de forma independiente
 ```
 
-No cambies otras partes del archivo.
+Guarda el archivo.
 
-📸 *[Imagen sugerida: edición del archivo]*
+📸 *[Imagen sugerida: edición del archivo en VS Code]*
 
 ---
 
-## 💾 Paso 8: Guardar el cambio (Commit)
+## 💾 Paso 6: Revisar cambios
 
-Baja al final de la página
+Mira qué cambió:
 
-En Commit message, escribe algo como:
-
-```
-Add Pull Request definition to glossary
+```bash
+git status
 ```
 
-Haz clic en Commit changes
+Ver diferencias:
 
-🎯 Resultado esperado:
-- El cambio queda guardado en tu fork
-
-📸 *[Imagen sugerida: formulario de commit en GitHub]*
+```bash
+git diff
+```
 
 ---
 
-## 🔁 Paso 9: Crear el Pull Request
+## 🧾 Paso 7: Crear un commit
 
-GitHub mostrará un botón Compare & pull request
+Agrega el archivo al staging:
 
-Haz clic en él
+```bash
+git add docs/onboarding/glossary.md
+```
+
+Crea el commit:
+
+```bash
+git commit -m "Add Fork definition to glossary"
+```
+
+🎯 Buenas prácticas:
+- Mensajes claros
+- Un commit = un cambio
+
+---
+
+## 🚀 Paso 8: Enviar cambios a GitHub
+
+Sube tu rama al repositorio:
+
+```bash
+git push origin docs/add-glossary-term
+```
+
+🎯 Resultado:
+- Tu rama queda disponible en GitHub
+
+---
+
+## 🔁 Paso 9: Abrir el Pull Request
+
+Ve a tu repositorio en GitHub
+
+Verás un aviso para crear el PR
+
+Haz clic en Compare & pull request
 
 📸 *[Imagen sugerida: botón Compare & pull request]*
 
@@ -190,46 +200,49 @@ Haz clic en él
 
 ## 📝 Paso 10: Completar el Pull Request
 
-Completa la descripción usando este formato:
+Usa esta estructura:
 
 ```
 ¿Qué cambia este PR?
-- Agrega la definición de Pull Request al glosario
+- Agrega definición de Fork al glosario
 
 ¿Por qué es necesario?
-- El término se usa en la documentación y no estaba definido
+- El término se usa frecuentemente y no estaba definido
 
 Issue relacionada:
-- #<número de tu Issue>
+- #<número de la Issue>
 ```
 
-Luego haz clic en Create pull request.
-
-📸 *[Imagen sugerida: formulario de Pull Request]*
+Crea el Pull Request.
 
 ---
 
-## 🎉 ¡Listo!
+## 🎉 ¡Primer aporte completado!
 
-Acabas de realizar tu primer aporte real en LANEDU Labs.
+Acabas de realizar un flujo técnico completo:
 
-Ahora sabes:
-- Cómo se propone un cambio
-- Cómo se edita documentación
-- Cómo funciona el flujo Issue → PR
+- Fork
+- Codespaces
+- Git
+- Commit
+- Push
+- Pull Request
+
+Este es el mismo flujo que se usa en proyectos reales.
 
 ---
 
 ## 🧠 Qué hacer ahora
 
 Desde aquí puedes:
+
 - Tomar otra Issue
-- Mejorar documentación existente
-- Explorar otras secciones del repositorio
+- Trabajar en documentación más compleja
+- Explorar tecnologías (Python, Docker, Git, etc.)
 
 ---
 
-## 🔑 Recuerda
+## 🔑 Regla final
 
-No importa el tamaño del aporte.
-Importa que aprendiste el proceso.
+No importa si sabes poco o mucho.
+Importa que sigas el flujo correcto.
