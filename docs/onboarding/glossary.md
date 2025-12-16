@@ -39,5 +39,7 @@ Rama principal del proyecto.
 
 ---
 
+**Fork:** copia de un repositorio para trabajar de forma independiente
+
 Este glosario está vivo.
 Si puedes mejorar una definición, hazlo.
