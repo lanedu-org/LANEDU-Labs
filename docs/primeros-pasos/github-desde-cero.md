@@ -121,15 +121,15 @@ git branch
 🎯 Resultado:
 - Estás trabajando en una rama nueva
 
+![Descripción de la imagen](../img/tutorial-github/Animation4.gif)
+
 ---
 
 ## ✏️ Paso 5: Editar un archivo
 
 Abre el glosario:
 
-```bash
-code onboarding/glossary.md
-```
+
 
 Agrega un término nuevo siguiendo el formato existente:
 
@@ -139,7 +139,7 @@ Agrega un término nuevo siguiendo el formato existente:
 
 Guarda el archivo.
 
-📸 *[Imagen sugerida: edición del archivo en VS Code]*
+![Descripción de la imagen](../img/tutorial-github/Animation5.gif)
 
 ---
 
@@ -156,7 +156,7 @@ Ver diferencias:
 ```bash
 git diff
 ```
-
+![Descripción de la imagen](../img/tutorial-github/Animation6.gif)
 ---
 
 ## 🧾 Paso 7: Crear un commit
@@ -186,9 +186,13 @@ Sube tu rama al repositorio:
 ```bash
 git push origin docs/add-glossary-term
 ```
+![Descripción de la imagen](../img/tutorial-github/Animation7.gif)
+
 
 🎯 Resultado:
 - Tu rama queda disponible en GitHub
+
+![Descripción de la imagen](../img/tutorial-github/Animation8.gif)
 
 ---
 
@@ -200,7 +204,7 @@ Verás un aviso para crear el PR
 
 Haz clic en Compare & pull request
 
-📸 *[Imagen sugerida: botón Compare & pull request]*
+![Descripción de la imagen](../img/tutorial-github/Animation9.gif)
 
 ---
 
@@ -220,6 +224,9 @@ Issue relacionada:
 ```
 
 Crea el Pull Request.
+
+
+![Descripción de la imagen](../img/tutorial-github/Animation10.gif)
 
 ---
 
