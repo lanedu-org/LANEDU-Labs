@@ -35,6 +35,13 @@ theme:
 nav:
   - Inicio: index.md
 
+  - Primeros pasos:
+      - Introducción: primeros-pasos/index.md
+      - GitHub desde cero: primeros-pasos/github-desde-cero.md
+      - Tu primer aporte: primeros-pasos/primer-aporte.md
+
+      
+
   - Onboarding:
       - Introducción a GitHub: onboarding/github-basics.md
       - Flujo de trabajo: onboarding/workflow.md
