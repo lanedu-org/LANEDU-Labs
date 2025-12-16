@@ -40,7 +40,7 @@ No necesitas instalar nada localmente.
 
 1. Ve al repositorio oficial:
 ```
-lanedu-org / LANEDU-Labs
+https://github.com/lanedu-org/LANEDU-Labs
 ```
 
 2. Haz clic en **Fork** (arriba a la derecha)
