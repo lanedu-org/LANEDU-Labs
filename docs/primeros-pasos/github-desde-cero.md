@@ -49,7 +49,8 @@ https://github.com/lanedu-org/LANEDU-Labs
 🎯 Resultado:
 - Ahora tienes tu propia copia del repositorio
 
-📸 *[Imagen sugerida: botón Fork]*
+![Descripción de la imagen](../img/tutorial-github/Fork01.png)
+
 
 ---
 
