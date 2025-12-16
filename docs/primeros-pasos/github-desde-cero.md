@@ -72,7 +72,7 @@ GitHub abrirá un entorno de desarrollo en el navegador.
 - Terminal integrada
 - Repositorio clonado automáticamente
 
-📸 *[Imagen sugerida: creación de Codespace]*
+![Descripción de la imagen](../img/tutorial-github/Animation2.gif)
 
 ---
 
