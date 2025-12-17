@@ -16,7 +16,7 @@ icon: material/weather-sunny
 name: Cambiar a modo claro
 
 
-- scheme: default
+scheme: default
 primary: black
 accent: lime
 toggle:
