@@ -25,46 +25,56 @@ theme:
     code: Fira Code
 
   features:
-    - navigation.sections 
+    - navigation.sections
     - navigation.tracking
     - navigation.top
     - search.highlight
     - search.suggest
     - content.code.copy
 
+# ======================
+# NAVEGACIÓN NUEVA
+# ======================
 nav:
   - Inicio: index.md
 
-  - Primeros pasos:
-      - Introducción: primeros-pasos/index.md
-      - GitHub desde cero: primeros-pasos/github-desde-cero.md
-      - actualizar tu fork: primeros-pasos/actualizar-tu-fork.md
+  - Plataforma:
+      - ¿Qué es LANEDU Labs?: plataforma/overview.md
+      - Filosofía: plataforma/filosofia.md
+      - Arquitectura: plataforma/arquitectura.md
 
+  - Conceptos clave:
+      - Qué es un Lab: conceptos/labs.md
+      - Qué es una Ruta: conceptos/rutas.md
+      - Validación por Pull Requests: conceptos/validacion-pr.md
 
+  - Rutas de aprendizaje:
+      - Linux: rutas/linux.md
+      - Git & GitHub: rutas/git-github.md
+      - Bases de Datos: rutas/bases-de-datos.md
+      - Docker: rutas/docker.md
+      - Python: rutas/python.md
 
-  - Onboarding:
-      - Introducción a GitHub: onboarding/github-basics.md
-      - Flujo de trabajo: onboarding/workflow.md
-      - Cómo crear un Pull Request: onboarding/how-to-create-a-pr.md
-      - Errores comunes: onboarding/common-mistakes.md
-      - Glosario: onboarding/glossary.md
+  - Labs:
+      - Estructura de un Lab: labs/estructura.md
+      - rules.json: labs/rules-json.md
+      - Convenciones de PR: labs/convenciones-pr.md
 
-  - Tecnologías:
-      - Python: tecnologias/python.md
-      - Git: tecnologias/git.md
-      - Docker: tecnologias/docker.md
-      - Linux: tecnologias/linux.md
+  - Alumnos:
+      - Flujo de trabajo: alumnos/flujo.md
+      - Estados de un Lab: alumnos/estados.md
+      - Preguntas frecuentes: alumnos/faq.md
+
+  - Creadores de Labs:
+      - Crear un Lab: creadores/crear-lab.md
+      - Diseñar buenas historias: creadores/historias.md
+      - Niveles de dificultad: creadores/dificultad.md
 
   - Guías:
-      - Cómo contribuir: guias/como-contribuir.md
-      - Estilo de documentación: guias/estilo-documentacion.md
-      - Plantilla de documentación de tecnologías: guias/plantilla-documentacion-tecnologias.md
-
-
+      - Buenas prácticas: guias/buenas-practicas.md
 
 extra_css:
   - stylesheets/neon.css
 
 plugins:
   - search
-
