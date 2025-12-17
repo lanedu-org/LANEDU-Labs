@@ -1,80 +1,88 @@
 site_name: LANEDU Labs
 site_url: https://lanedu-org.github.io/LANEDU-Labs/
 
+
 theme:
-  name: material
-  language: es
+name: material
+language: es
 
-  palette:
-    - scheme: slate
-      primary: black
-      accent: lime
-      toggle:
-        icon: material/weather-sunny
-        name: Cambiar a modo claro
 
-    - scheme: default
-      primary: black
-      accent: lime
-      toggle:
-        icon: material/weather-night
-        name: Cambiar a modo oscuro
+palette:
+- scheme: slate
+primary: black
+accent: lime
+toggle:
+icon: material/weather-sunny
+name: Cambiar a modo claro
 
-  font:
-    text: Roboto
-    code: Fira Code
 
-  features:
-    - navigation.sections
-    - navigation.tracking
-    - navigation.top
-    - search.highlight
-    - search.suggest
-    - content.code.copy
+- scheme: default
+primary: black
+accent: lime
+toggle:
+icon: material/weather-night
+name: Cambiar a modo oscuro
 
-# ======================
-# NAVEGACIÓN NUEVA
-# ======================
+
+font:
+text: Roboto
+code: Fira Code
+
+
+features:
+- navigation.sections
+- navigation.tracking
+- navigation.top
+- search.highlight
+- search.suggest
+- content.code.copy
+
+
 nav:
-  - Inicio: index.md
+- Inicio: index.md
 
-  - Plataforma:
-      - ¿Qué es LANEDU Labs?: plataforma/overview.md
-      - Filosofía: plataforma/filosofia.md
-      - Arquitectura: plataforma/arquitectura.md
 
-  - Conceptos clave:
-      - Qué es un Lab: conceptos/labs.md
-      - Qué es una Ruta: conceptos/rutas.md
-      - Validación por Pull Requests: conceptos/validacion-pr.md
+- Plataforma:
+- ¿Qué es LANEDU Labs?: plataforma/overview.md
+- Filosofía: plataforma/filosofia.md
+- Arquitectura: plataforma/arquitectura.md
 
-  - Rutas de aprendizaje:
-      - Linux: rutas/linux.md
-      - Git & GitHub: rutas/git-github.md
-      - Bases de Datos: rutas/bases-de-datos.md
-      - Docker: rutas/docker.md
-      - Python: rutas/python.md
 
-  - Labs:
-      - Estructura de un Lab: labs/estructura.md
-      - rules.json: labs/rules-json.md
-      - Convenciones de PR: labs/convenciones-pr.md
+- Conceptos clave:
+- Qué es un Lab: conceptos/labs.md
+- Qué es una Ruta: conceptos/rutas.md
+- Validación por Pull Requests: conceptos/validacion-pr.md
 
-  - Alumnos:
-      - Flujo de trabajo: alumnos/flujo.md
-      - Estados de un Lab: alumnos/estados.md
-      - Preguntas frecuentes: alumnos/faq.md
 
-  - Creadores de Labs:
-      - Crear un Lab: creadores/crear-lab.md
-      - Diseñar buenas historias: creadores/historias.md
-      - Niveles de dificultad: creadores/dificultad.md
+- Rutas de aprendizaje:
+- Linux: rutas/linux.md
+- Git & GitHub: rutas/git-github.md
+- Bases de Datos: rutas/bases-de-datos.md
+- Docker: rutas/docker.md
+- Python: rutas/python.md
 
-  - Guías:
-      - Buenas prácticas: guias/buenas-practicas.md
 
-extra_css:
-  - stylesheets/neon.css
+- Labs:
+- Estructura de un Lab: labs/estructura.md
+- rules.json: labs/rules-json.md
+- Convenciones de PR: labs/convenciones-pr.md
+
+
+- Alumnos:
+- Flujo de trabajo: alumnos/flujo.md
+- Estados de un Lab: alumnos/estados.md
+- Preguntas frecuentes: alumnos/faq.md
+
+
+- Creadores de Labs:
+- Crear un Lab: creadores/crear-lab.md
+- Diseñar historias: creadores/historias.md
+- Dificultad: creadores/dificultad.md
+
+
+- Guías:
+- Buenas prácticas: guias/buenas-practicas.md
+
 
 plugins:
-  - search
+- search
