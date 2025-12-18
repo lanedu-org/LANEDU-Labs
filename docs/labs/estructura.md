@@ -1,4 +1,3 @@
-```markdown
 # Estructura mínima del repositorio
 
 Un Lab debe contener, como mínimo, la siguiente estructura de archivos:
@@ -80,4 +79,3 @@ Un Lab bien definido cuenta con:
 
 ¿Te gustaría que te ayude a redactar un ejemplo específico para el contenido del archivo `rules.json`?
 
-```
