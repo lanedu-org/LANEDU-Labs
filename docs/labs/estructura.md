@@ -1,6 +1,3 @@
-
----
-
 ```markdown
 # Estructura mínima del repositorio
 
