@@ -1,99 +1,87 @@
-Estructura de un Lab
+Aquí tienes el código Markdown corregido y bien formateado. He aplicado una jerarquía de encabezados más clara, listas consistentes y bloques de código para que sea fácil de leer y profesional.
 
-Cada Lab en LANEDU Labs sigue una estructura clara y consistente.
+---
 
-Esto permite que todos los Labs se entiendan, validen y escalen de la misma forma.
+```markdown
+# Estructura mínima del repositorio
 
-Un Lab es un repositorio GitHub
+Un Lab debe contener, como mínimo, la siguiente estructura de archivos:
 
-Cada Lab vive en su propio repositorio. Ese repositorio contiene todo lo necesario para:
-
-Entender el problema
-
-Conocer las reglas
-
-Validar la entrega
-
-El repositorio base no se modifica.
-
-Estructura mínima del repositorio
-
-Un Lab debe contener, como mínimo:
-
+```text
 lab-xx-nombre-del-lab/
 ├── README.md
 └── .lanedu/
     └── rules.json
 
+```
 
-README.md
+## 📄 README.md
 
-El archivo README.md define el desafío. Debe incluir:
+El archivo `README.md` define el desafío del Lab. Debe explicar **qué** se debe lograr, no **cómo** hacerlo.
 
-Historia (contexto del problema)
+**Debe incluir claramente:**
 
-Objetivo claro
+* **Historia:** Contexto del problema.
+* **Objetivo:** Meta clara a alcanzar.
+* **Reglas del Lab:** Normas de participación.
+* **Entregable esperado:** Qué debe presentar el alumno.
 
-Reglas del Lab
+---
 
-Entregable esperado
+## 📁 Carpeta `.lanedu/`
 
-El README explica qué se debe lograr, no cómo hacerlo.
+La carpeta `.lanedu/` contiene la configuración interna del Lab. Aquí se define cómo la plataforma valida automáticamente la entrega.
 
-Carpeta .lanedu
+### `rules.json`
 
-La carpeta .lanedu/ contiene la configuración del Lab. Aquí se define cómo la plataforma valida el desafío.
+Este archivo define las reglas de validación técnica. Es leído por la plataforma para evaluar el Lab sin intervención manual.
 
-rules.json
+**Ejemplos de reglas:**
 
-El archivo rules.json define las reglas de validación del Lab.
+* Formato específico del título del *Pull Request*.
+* Verificación de existencia de archivos.
+* Rutas específicas que deben ser modificadas.
+* **Restricciones:** Por ejemplo, prohibir el borrado de archivos base.
 
-Ejemplos de reglas:
+---
 
-Formato del título del Pull Request
+## 📎 Archivos adicionales (Opcional)
 
-Archivos que deben existir
+Un Lab puede incluir recursos extra si el contexto lo requiere:
 
-Rutas que deben ser modificadas
+* Ejemplos o plantillas.
+* Archivos base de código.
+* Estructuras de carpetas simuladas.
 
-Restricciones (no borrar archivos, etc.)
+> **Nota:** Estos archivos sirven como punto de partida, nunca como la solución al reto.
 
-Este archivo es leído por la plataforma para validar automáticamente.
+---
 
-Archivos adicionales (opcional)
+## 🔒 Inmutabilidad del Lab
 
-Un Lab puede incluir archivos adicionales si es necesario:
+El repositorio base del Lab debe mantenerse íntegro:
 
-Ejemplos
+1. **No recibe merges.**
+2. **No se modifica con las entregas.**
+3. **No cambia su historial.**
 
-Plantillas
+Toda la actividad de los alumnos ocurre exclusivamente en **forks** y **Pull Requests**.
 
-Archivos base
+---
 
-Carpetas simuladas
+## En resumen
 
-Estos archivos sirven como contexto o punto de partida, no como solución.
+Un Lab bien definido cuenta con:
 
-Inmutabilidad del Lab
+* ✅ Un repositorio con estructura clara.
+* ✅ Un `README.md` con contexto y reglas.
+* ✅ Un `rules.json` para validación automática.
+* ✅ Un flujo de entregas basado en *Pull Requests*.
 
-El repositorio base del Lab:
+```
 
-No recibe merges.
+---
 
-No se modifica con entregas.
+¿Te gustaría que te ayude a redactar un ejemplo específico para el contenido del archivo `rules.json`?
 
-No cambia su historia.
-
-Toda la actividad ocurre en forks y Pull Requests.
-
-En resumen
-
-Un Lab bien definido tiene:
-
-✅ Un repositorio claro
-
-✅ Un README con contexto y reglas
-
-✅ Un rules.json para validación
-
-✅ Entregas mediante Pull Requests
+```
