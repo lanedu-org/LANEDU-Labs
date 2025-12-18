@@ -1,5 +1,3 @@
-"""
-
 # Estructura mínima del repositorio
 
 Un Lab debe contener, como mínimo, la siguiente estructura de archivos:
@@ -78,4 +76,4 @@ Un Lab bien definido cuenta con:
 *  Un `README.md` con contexto y reglas
 *  Un `rules.json` para validación automática
 *  Un flujo de entregas basado en Pull Requests
-  """
+
