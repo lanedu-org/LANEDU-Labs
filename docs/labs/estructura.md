@@ -1,4 +1,3 @@
-Aquí tienes el código Markdown corregido y bien formateado. He aplicado una jerarquía de encabezados más clara, listas consistentes y bloques de código para que sea fácil de leer y profesional.
 
 ---
 
