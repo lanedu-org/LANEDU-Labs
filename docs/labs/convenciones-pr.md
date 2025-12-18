@@ -1,5 +1,3 @@
-"""
-
 # Convenciones de Pull Requests
 
 En LANEDU Labs, el **Pull Request (PR)** es la entrega oficial de cada Lab.
@@ -114,4 +112,3 @@ Un Pull Request válido debe:
 * Apuntar a la rama correcta
 * Contener solo la solución
 * Respetar las reglas del Lab
-  """
