@@ -1,0 +1,19 @@
+/* Títulos de sección (carpetas) en el sidebar */
+.md-nav__item--section > label.md-nav__link,
+.md-nav__item--section > .md-nav__link {
+  color: #39ff14 !important;          /* verde flúor */
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+
+  /* brillo neon suave */
+  text-shadow:
+    0 0 6px rgba(57, 255, 20, 0.55),
+    0 0 18px rgba(57, 255, 20, 0.25);
+}
+
+/* Opcional: que el ícono de expand/collapse también sea verde */
+.md-nav__item--section > label.md-nav__link svg,
+.md-nav__item--section > .md-nav__link svg {
+  fill: #39ff14 !important;
+}
